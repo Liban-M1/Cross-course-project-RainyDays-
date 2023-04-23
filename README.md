@@ -10,4 +10,4 @@ HTML/CSS/JS WEBSITE
 
 figma design: https://www.figma.com/file/hdzz50leNBw4jM8PqLqeJR/-RD-CA-?node-id=0%3A1
  
-Netlify:
+Netlify: https://cdr2b.netlify.app/
