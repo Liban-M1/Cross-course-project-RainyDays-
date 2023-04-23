@@ -1,0 +1,474 @@
+a:hover {
+    text-decoration: underline;
+}
+
+body {
+    background-color: #E6E6E6;
+}
+.navbar {
+    align-items: center;
+    display: flex;
+    height: 12%;
+}
+
+.logo{
+    width: 90px;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.menu_icon {
+    width: 30px;
+    cursor: pointer;
+    margin-left: 100px;
+    margin-right: 50px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-left: 60px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.home-banner {
+    display: flex;
+    margin: 50px;
+}
+
+.home-banner-content h1 {
+    font-size: 50px;
+}
+
+.home-banner-content p {
+    font-size: 20px;
+}
+
+.home-info-1 h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.home-info-1 p {
+    margin: 36px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.homepage-raincoat {
+    display: flex;
+    justify-content: center;
+
+}
+
+.FP-img:hover {
+    transform: translateY(-30px);
+    transition: 0.7s;
+}
+
+.FP-img {
+    transition: 0.7s;
+}
+
+.home-info-2 p {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.icons {
+    background-color: #1c4c55;
+    border-radius: 15px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons p {
+    background-color: #e6e6e6;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+a {
+    color: black;
+}
+
+/* contact.html */ 
+
+/* New Contact Form */
+
+.contactbtn {
+    padding: 0.6em 1em;
+    border: 4px solid #1c4c55;
+    transition: 0.3s;
+    background-color: transparent;
+    color: #1c4c55;
+    font-weight: bolder;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.contactbtn:hover {
+    transform: scale(1.2) rotate(10deg);
+    background-color: #1c4c55;
+    color: white;
+}
+
+.form-container {
+    border: 4px solid #1c4c55;
+    padding: 30px;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 500px;
+    box-sizing: border-box;
+    margin-bottom: 150px;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+
+.form-container input {
+    margin: 10px 0;
+    width: 100%;
+    height: 30px;
+    box-sizing: border-box;
+}
+
+.form-error {
+    color: red;
+    font-size: 0.9em;
+    display: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+/* New Contact Form */
+
+.c-u {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: -30px;
+    margin-bottom: 600px;
+}
+
+.us-jpg-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.us-jpg-2 {
+    height: 175px;
+    width: 800px;
+}
+
+.about-us h2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us h3 {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.about-us p {
+    font-size: 20px;
+}
+
+/* COLLECTION.HTML */
+
+.top-h1 {
+    margin-left: 225px;
+}
+
+.collection-grid {
+    display: inline-flex;
+    margin-left: 170px;
+}
+
+.collection-row {
+    margin-top: 180px;
+    margin-left: 135px;
+    margin-bottom: 100px;
+}
+
+.collection-row img {
+    height: 300px;
+    width: auto;
+}
+
+.left-side img {
+    height: 400px;
+    width: auto;
+    margin-top: 125px;
+    margin-bottom: 80px;
+}
+
+.pro1 {
+    margin-right: 50px;
+}
+
+.pro1:hover {
+    transform: translateY(-30px);
+    transition: 0.7s;
+}
+
+.pro1 {
+    transition: 0.7s;
+}
+
+/* PRODUCT.HTML */
+
+.product-description, h1, h2, p {
+    display: flex;
+    justify-content: center;
+}
+
+.product-description h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.product-description h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.product-description p {
+    font-size: 30px;
+}
+
+.product-picture {
+    display: flex;
+    justify-content: center;
+}
+
+.product-btn {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.size-btn {
+    height: 50px;
+    width: 50px;
+    background-color: #8dc4c4;
+    font-size: 20px;
+}
+
+.size-btn:hover {
+    background-color: #82dbdb;
+}
+
+.checkout-btn {
+    height: 50px;
+    width: 150px;
+    background-color: #489595;
+    font-size: 20px;
+}
+
+.checkout-btn:hover {
+    background-color: #82dbdb;
+}
+
+/*CHECKOUT.HTML*/
+
+.checkout-pt1 {
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-pt1 p {
+    height: 385px;
+    width: 750px;
+    background-color: #a2dada;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 15px 5px;
+}
+
+/* MEDIA */
+
+@media (min-width: 250px) {
+
+
+    .navbar  ul{
+        display: none;
+
+    }
+
+    .contact-us {
+        display: none;
+    }
+
+    .phone-cu {
+        display: block;
+    }
+    
+    .hero {
+        display: none;
+    }
+
+    .home-info-1 h1 {
+        text-align: center;
+    }
+
+    .homepage-raincoat img {
+        height: 300px;
+        
+    }
+
+    .checkout-pt1 img {
+        display: none;
+    }
+
+    .checkout-pt1 p {
+        font-size: 25px;
+    }
+
+    .c-u {
+        margin-bottom: auto;
+    }
+
+    .product-picture img {
+        height: 500px;
+    }
+
+    .collection-grid {
+        margin: 0px;
+    }
+
+    .left-side {
+        display: none;
+    }
+
+    .top-h1 {
+        margin-left: 0px;
+    }
+
+
+}
+
+@media (min-width: 700px) {
+
+
+    .navbar  ul{
+        display: block;
+
+    }
+
+    .homepage-raincoat img {
+        height: 500px;
+        
+    }
+
+    .hero {
+        display: block;
+        height: 165px;
+    }
+
+    .checkout-pt1 img {
+        display: block;
+    }
+
+
+    .contact-us {
+        display: block;
+    }
+
+    .phone-cu {
+        display: none;
+    }
+
+    .c-u {
+        margin-bottom: 600px;
+    }
+
+    .product-picture img {
+        height: auto;
+    }
+
+} 
+
+@media (min-width: 1025px) {
+
+
+    .navbar  ul{
+        display: block;
+
+    }
+
+    .homepage-raincoat img {
+        height: 700px;
+        
+    }
+
+    .hero {
+        display: block;
+        height: 330px;
+    }
+
+    .checkout-pt1 img {
+        display: block;
+    }
+
+    .contact-us {
+        display: block;
+    }
+
+    .phone-cu {
+        display: none;
+    }
+
+    .c-u {
+        margin-bottom: 600px;
+    }
+
+    .hero {
+        height: 250px;
+    }
+
+    .collection-grid {
+        margin: auto;
+    }
+
+    .left-side {
+        display: block;
+    }
+
+    .top-h1 {
+        margin-left: auto;
+    }
+
+} 
+
+@media (min-width: 1200px) {
+
+
+    .hero {
+        height: 450px;
+    }
+
+
+
+    
+}
